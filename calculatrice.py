@@ -15,5 +15,11 @@ elif operation == "soustraction":
  print(soustraction(a, b))
 elif operation == "multiplication":
  print(multiplication(a, b))
+elif operation == "division":
+ print(division(a, b))
 else:
+ def division(a, b):
+  if b == 0:
+   return "Erreur : division par zéro"
+   return a / b
  print("Opération inconnue :", operation)
